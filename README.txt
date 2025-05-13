@@ -33,5 +33,7 @@ npm -v
 
 - **Frontend Command (`npm start`)**:
   This is the default start command for React apps created with `create-react-app`.
+  If it fails and gives an error, it means that the required frontend dependencies — specifically react-scripts — haven't been installed yet. This typically happens right after cloning or pulling a fresh copy of the repo. Run `npm install` to add back any dependencies and run `npm start` again.
+
 
 ---
